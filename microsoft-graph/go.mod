@@ -4,7 +4,7 @@ go 1.21.3
 
 replace github.com/tombuildsstuff/go-azure-sdk/sdk => ../sdk
 
-require github.com/tombuildsstuff/go-azure-sdk/sdk v0.0.0-00010101000000-000000000000
+require github.com/tombuildsstuff/go-azure-sdk/sdk v0.20240110.1174848
 
 require (
 	github.com/golang/protobuf v1.5.3 // indirect
