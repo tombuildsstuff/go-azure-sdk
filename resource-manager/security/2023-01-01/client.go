@@ -5,7 +5,7 @@ package v2023_01_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2023-01-01/pricings"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2023-01-01/pricings"
 )
 
 type Client struct {

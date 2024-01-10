@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/auth"
-	"github.com/hashicorp/go-azure-sdk/sdk/claims"
-	"github.com/hashicorp/go-azure-sdk/sdk/internal/test"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/auth"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/claims"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/internal/test"
 )
 
 func TestCachedAuthorizer(t *testing.T) {

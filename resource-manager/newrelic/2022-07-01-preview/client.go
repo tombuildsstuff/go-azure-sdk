@@ -6,13 +6,13 @@ package v2022_07_01_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2022-07-01-preview/accounts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2022-07-01-preview/monitors"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2022-07-01-preview/organizations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2022-07-01-preview/plan"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/newrelic/2022-07-01-preview/tagrules"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/newrelic/2022-07-01-preview/accounts"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/newrelic/2022-07-01-preview/monitors"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/newrelic/2022-07-01-preview/organizations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/newrelic/2022-07-01-preview/plan"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/newrelic/2022-07-01-preview/tagrules"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

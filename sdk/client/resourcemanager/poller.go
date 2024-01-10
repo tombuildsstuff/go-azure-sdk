@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/pollers"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/pollers"
 )
 
 func PollerFromResponse(response *client.Response, client *Client) (poller pollers.Poller, err error) {

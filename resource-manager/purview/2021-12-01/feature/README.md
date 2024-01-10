@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/purview/2021-12-01/feature` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/purview/2021-12-01/feature` Documentation
 
 The `feature` SDK allows for interaction with the Azure Resource Manager Service `purview` (API Version `2021-12-01`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/purview/2021-12-01/feature"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/purview/2021-12-01/feature"
 ```
 
 

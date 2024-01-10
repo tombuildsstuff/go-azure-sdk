@@ -43,8 +43,8 @@ function updateSdkReferenceThenPublish {
   echo "Checking out a working branch from 'sdk/$tag'.."
   git checkout -b "$directory/$tag" "sdk/$tag"
 
-  echo "Updating the dependency on 'github.com/hashicorp/go-azure-sdk/sdk'.."
-  go get "github.com/hashicorp/go-azure-sdk/sdk@$tag"
+  echo "Updating the dependency on 'github.com/tombuildsstuff/go-azure-sdk/sdk'.."
+  go get "github.com/tombuildsstuff/go-azure-sdk/sdk@$tag"
 
   echo "Running 'go mod tidy'.."
   go mod tidy
@@ -56,7 +56,7 @@ function updateSdkReferenceThenPublish {
   git add --all
 
   echo "Committing the changes.."
-  git commit -m "$directory: updating to '$tag' of 'github.com/hashicorp/go-azure-sdk/sdk'"
+  git commit -m "$directory: updating to '$tag' of 'github.com/tombuildsstuff/go-azure-sdk/sdk'"
 
   echo "Tagging the working directory.."
   git tag "$directory/$tag"

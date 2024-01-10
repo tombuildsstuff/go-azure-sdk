@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/dynatrace/2023-04-27/singlesignon` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/dynatrace/2023-04-27/singlesignon` Documentation
 
 The `singlesignon` SDK allows for interaction with the Azure Resource Manager Service `dynatrace` (API Version `2023-04-27`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/dynatrace/2023-04-27/singlesignon"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/dynatrace/2023-04-27/singlesignon"
 ```
 
 

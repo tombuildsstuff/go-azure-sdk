@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/azureactivedirectory/2020-03-01/privatelinkresources` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/azureactivedirectory/2020-03-01/privatelinkresources` Documentation
 
 The `privatelinkresources` SDK allows for interaction with the Azure Resource Manager Service `azureactivedirectory` (API Version `2020-03-01`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/azureactivedirectory/2020-03-01/privatelinkresources"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/azureactivedirectory/2020-03-01/privatelinkresources"
 ```
 
 

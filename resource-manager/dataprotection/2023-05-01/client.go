@@ -6,19 +6,19 @@ package v2023_05_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dataprotection/2023-05-01/azurebackupjob"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dataprotection/2023-05-01/azurebackupjobs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dataprotection/2023-05-01/backupinstances"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dataprotection/2023-05-01/backuppolicies"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dataprotection/2023-05-01/backupvaults"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dataprotection/2023-05-01/deletedbackupinstances"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dataprotection/2023-05-01/dppfeaturesupport"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dataprotection/2023-05-01/dppresourceguardproxies"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dataprotection/2023-05-01/findrestorabletimeranges"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dataprotection/2023-05-01/recoverypoint"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dataprotection/2023-05-01/resourceguards"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dataprotection/2023-05-01/azurebackupjob"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dataprotection/2023-05-01/azurebackupjobs"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dataprotection/2023-05-01/backupinstances"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dataprotection/2023-05-01/backuppolicies"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dataprotection/2023-05-01/backupvaults"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dataprotection/2023-05-01/deletedbackupinstances"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dataprotection/2023-05-01/dppfeaturesupport"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dataprotection/2023-05-01/dppresourceguardproxies"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dataprotection/2023-05-01/findrestorabletimeranges"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dataprotection/2023-05-01/recoverypoint"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dataprotection/2023-05-01/resourceguards"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

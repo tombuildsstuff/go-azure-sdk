@@ -6,16 +6,16 @@ package v2021_12_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/purview/2021-12-01/account"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/purview/2021-12-01/defaultaccount"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/purview/2021-12-01/feature"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/purview/2021-12-01/kafkaconfiguration"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/purview/2021-12-01/privateendpointconnection"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/purview/2021-12-01/privatelinkresource"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/purview/2021-12-01/provider"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/purview/2021-12-01/usages"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/purview/2021-12-01/account"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/purview/2021-12-01/defaultaccount"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/purview/2021-12-01/feature"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/purview/2021-12-01/kafkaconfiguration"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/purview/2021-12-01/privateendpointconnection"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/purview/2021-12-01/privatelinkresource"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/purview/2021-12-01/provider"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/purview/2021-12-01/usages"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -12,8 +12,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/internal/metadata"
-	"github.com/hashicorp/go-azure-sdk/sdk/internal/test"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/internal/metadata"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/internal/test"
 )
 
 var (

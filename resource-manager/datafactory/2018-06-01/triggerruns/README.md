@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/datafactory/2018-06-01/triggerruns` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/datafactory/2018-06-01/triggerruns` Documentation
 
 The `triggerruns` SDK allows for interaction with the Azure Resource Manager Service `datafactory` (API Version `2018-06-01`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/datafactory/2018-06-01/triggerruns"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/datafactory/2018-06-01/triggerruns"
 ```
 
 

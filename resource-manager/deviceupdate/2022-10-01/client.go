@@ -6,12 +6,12 @@ package v2022_10_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/deviceupdate/2022-10-01/deviceupdates"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/deviceupdate/2022-10-01/privateendpointconnectionproxies"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/deviceupdate/2022-10-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/deviceupdate/2022-10-01/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/deviceupdate/2022-10-01/deviceupdates"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/deviceupdate/2022-10-01/privateendpointconnectionproxies"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/deviceupdate/2022-10-01/privateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/deviceupdate/2022-10-01/privatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

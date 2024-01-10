@@ -5,7 +5,7 @@ package v2020_10_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2020-10-01/activitylogalertsapis"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2020-10-01/activitylogalertsapis"
 )
 
 type Client struct {

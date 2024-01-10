@@ -5,9 +5,9 @@ package v2022_10_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2022-10-01/autoscaleapis"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2022-10-01/autoscalesettings"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2022-10-01/metrics"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2022-10-01/autoscaleapis"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2022-10-01/autoscalesettings"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2022-10-01/metrics"
 )
 
 type Client struct {

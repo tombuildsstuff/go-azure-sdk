@@ -5,12 +5,12 @@ package v2016_03_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2016-03-01/alertruleincidents"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2016-03-01/alertrules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2016-03-01/alertrulesapis"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2016-03-01/logprofiles"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2016-03-01/logprofilesapis"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2016-03-01/metricdefinitions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2016-03-01/alertruleincidents"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2016-03-01/alertrules"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2016-03-01/alertrulesapis"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2016-03-01/logprofiles"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2016-03-01/logprofilesapis"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2016-03-01/metricdefinitions"
 )
 
 type Client struct {

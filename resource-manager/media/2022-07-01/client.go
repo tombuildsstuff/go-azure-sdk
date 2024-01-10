@@ -6,9 +6,9 @@ package v2022_07_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/media/2022-07-01/encodings"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/media/2022-07-01/encodings"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

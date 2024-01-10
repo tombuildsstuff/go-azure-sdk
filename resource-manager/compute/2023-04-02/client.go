@@ -6,13 +6,13 @@ package v2023_04_02
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/compute/2023-04-02/diskaccesses"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/compute/2023-04-02/diskencryptionsets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/compute/2023-04-02/disks"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/compute/2023-04-02/incrementalrestorepoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/compute/2023-04-02/snapshots"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/compute/2023-04-02/diskaccesses"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/compute/2023-04-02/diskencryptionsets"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/compute/2023-04-02/disks"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/compute/2023-04-02/incrementalrestorepoints"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/compute/2023-04-02/snapshots"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

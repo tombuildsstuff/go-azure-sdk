@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/dataprotection/2022-04-01/dppfeaturesupport` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/dataprotection/2022-04-01/dppfeaturesupport` Documentation
 
 The `dppfeaturesupport` SDK allows for interaction with the Azure Resource Manager Service `dataprotection` (API Version `2022-04-01`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/dataprotection/2022-04-01/dppfeaturesupport"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/dataprotection/2022-04-01/dppfeaturesupport"
 ```
 
 

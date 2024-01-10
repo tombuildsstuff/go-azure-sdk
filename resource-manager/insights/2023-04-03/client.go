@@ -5,7 +5,7 @@ package v2023_04_03
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2023-04-03/azuremonitorworkspaces"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2023-04-03/azuremonitorworkspaces"
 )
 
 type Client struct {

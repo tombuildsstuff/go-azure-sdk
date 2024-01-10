@@ -5,13 +5,13 @@ package v2021_10_15
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2021-10-15/cosmosdb"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2021-10-15/managedcassandras"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2021-10-15/notebookworkspacesresource"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2021-10-15/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2021-10-15/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2021-10-15/rbacs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2021-10-15/restorables"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2021-10-15/cosmosdb"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2021-10-15/managedcassandras"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2021-10-15/notebookworkspacesresource"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2021-10-15/privateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2021-10-15/privatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2021-10-15/rbacs"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2021-10-15/restorables"
 )
 
 type Client struct {

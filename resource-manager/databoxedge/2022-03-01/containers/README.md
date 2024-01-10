@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/databoxedge/2022-03-01/containers` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/databoxedge/2022-03-01/containers` Documentation
 
 The `containers` SDK allows for interaction with the Azure Resource Manager Service `databoxedge` (API Version `2022-03-01`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/databoxedge/2022-03-01/containers"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/databoxedge/2022-03-01/containers"
 ```
 
 

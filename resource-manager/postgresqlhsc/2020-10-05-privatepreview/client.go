@@ -6,14 +6,14 @@ package v2020_10_05_privatepreview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresqlhsc/2020-10-05-privatepreview/configurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresqlhsc/2020-10-05-privatepreview/firewallrules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresqlhsc/2020-10-05-privatepreview/roles"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresqlhsc/2020-10-05-privatepreview/servergroupoperations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresqlhsc/2020-10-05-privatepreview/servergroups"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresqlhsc/2020-10-05-privatepreview/servers"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/postgresqlhsc/2020-10-05-privatepreview/configurations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/postgresqlhsc/2020-10-05-privatepreview/firewallrules"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/postgresqlhsc/2020-10-05-privatepreview/roles"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/postgresqlhsc/2020-10-05-privatepreview/servergroupoperations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/postgresqlhsc/2020-10-05-privatepreview/servergroups"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/postgresqlhsc/2020-10-05-privatepreview/servers"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

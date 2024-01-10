@@ -5,9 +5,9 @@ package v2021_04_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2021-04-01/datacollectionendpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2021-04-01/datacollectionruleassociations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2021-04-01/datacollectionrules"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2021-04-01/datacollectionendpoints"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2021-04-01/datacollectionruleassociations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2021-04-01/datacollectionrules"
 )
 
 type Client struct {

@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/paloaltonetworks/2022-08-29/prefixlistglobalrulestack` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/paloaltonetworks/2022-08-29/prefixlistglobalrulestack` Documentation
 
 The `prefixlistglobalrulestack` SDK allows for interaction with the Azure Resource Manager Service `paloaltonetworks` (API Version `2022-08-29`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/paloaltonetworks/2022-08-29/prefixlistglobalrulestack"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/paloaltonetworks/2022-08-29/prefixlistglobalrulestack"
 ```
 
 

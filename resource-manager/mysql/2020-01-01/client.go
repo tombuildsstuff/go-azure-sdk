@@ -6,12 +6,12 @@ package v2020_01_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/mysql/2020-01-01/serverkeys"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/mysql/2020-01-01/serverstart"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/mysql/2020-01-01/serverstop"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/mysql/2020-01-01/serverupgrade"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/mysql/2020-01-01/serverkeys"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/mysql/2020-01-01/serverstart"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/mysql/2020-01-01/serverstop"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/mysql/2020-01-01/serverupgrade"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -6,16 +6,16 @@ package v2021_10_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/costmanagement/2021-10-01/alerts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/costmanagement/2021-10-01/dimensions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/costmanagement/2021-10-01/exports"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/costmanagement/2021-10-01/forecast"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/costmanagement/2021-10-01/query"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/costmanagement/2021-10-01/reservedinstances"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/costmanagement/2021-10-01/usagedetails"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/costmanagement/2021-10-01/views"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/costmanagement/2021-10-01/alerts"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/costmanagement/2021-10-01/dimensions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/costmanagement/2021-10-01/exports"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/costmanagement/2021-10-01/forecast"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/costmanagement/2021-10-01/query"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/costmanagement/2021-10-01/reservedinstances"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/costmanagement/2021-10-01/usagedetails"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/costmanagement/2021-10-01/views"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

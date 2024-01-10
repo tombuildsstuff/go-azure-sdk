@@ -6,12 +6,12 @@ package v2023_07_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2023-07-01/deployments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2023-07-01/providers"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2023-07-01/resourcegroups"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2023-07-01/resources"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/resources/2023-07-01/deployments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/resources/2023-07-01/providers"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/resources/2023-07-01/resourcegroups"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/resources/2023-07-01/resources"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

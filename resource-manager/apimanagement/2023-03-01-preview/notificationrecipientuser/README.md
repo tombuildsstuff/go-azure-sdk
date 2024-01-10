@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/apimanagement/2023-03-01-preview/notificationrecipientuser` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/apimanagement/2023-03-01-preview/notificationrecipientuser` Documentation
 
 The `notificationrecipientuser` SDK allows for interaction with the Azure Resource Manager Service `apimanagement` (API Version `2023-03-01-preview`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/apimanagement/2023-03-01-preview/notificationrecipientuser"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/apimanagement/2023-03-01-preview/notificationrecipientuser"
 ```
 
 

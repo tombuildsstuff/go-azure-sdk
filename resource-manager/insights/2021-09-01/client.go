@@ -5,7 +5,7 @@ package v2021_09_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2021-09-01/actiongroupsapis"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2021-09-01/actiongroupsapis"
 )
 
 type Client struct {

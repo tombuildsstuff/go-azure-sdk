@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/communication/2023-04-01/emailservices` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/communication/2023-04-01/emailservices` Documentation
 
 The `emailservices` SDK allows for interaction with the Azure Resource Manager Service `communication` (API Version `2023-04-01`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/communication/2023-04-01/emailservices"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/communication/2023-04-01/emailservices"
 ```
 
 

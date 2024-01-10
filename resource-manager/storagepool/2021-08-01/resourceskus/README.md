@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/storagepool/2021-08-01/resourceskus` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/storagepool/2021-08-01/resourceskus` Documentation
 
 The `resourceskus` SDK allows for interaction with the Azure Resource Manager Service `storagepool` (API Version `2021-08-01`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/storagepool/2021-08-01/resourceskus"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/storagepool/2021-08-01/resourceskus"
 ```
 
 

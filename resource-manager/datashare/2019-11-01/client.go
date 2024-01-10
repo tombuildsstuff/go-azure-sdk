@@ -5,16 +5,16 @@ package v2019_11_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/account"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/consumerinvitation"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/dataset"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/datasetmapping"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/emailregistration"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/invitation"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/share"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/sharesubscription"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/synchronizationsetting"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datashare/2019-11-01/trigger"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datashare/2019-11-01/account"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datashare/2019-11-01/consumerinvitation"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datashare/2019-11-01/dataset"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datashare/2019-11-01/datasetmapping"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datashare/2019-11-01/emailregistration"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datashare/2019-11-01/invitation"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datashare/2019-11-01/share"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datashare/2019-11-01/sharesubscription"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datashare/2019-11-01/synchronizationsetting"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datashare/2019-11-01/trigger"
 )
 
 type Client struct {

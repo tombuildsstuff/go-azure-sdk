@@ -5,14 +5,14 @@ package v2023_10_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-10-01/agentpools"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-10-01/maintenanceconfigurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-10-01/managedclusters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-10-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-10-01/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-10-01/resolveprivatelinkserviceid"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-10-01/snapshots"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-10-01/trustedaccess"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2023-10-01/agentpools"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2023-10-01/maintenanceconfigurations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2023-10-01/managedclusters"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2023-10-01/privateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2023-10-01/privatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2023-10-01/resolveprivatelinkserviceid"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2023-10-01/snapshots"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2023-10-01/trustedaccess"
 )
 
 type Client struct {

@@ -5,9 +5,9 @@ package v2018_03_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2018-03-01/actiongroupsapis"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2018-03-01/metricalerts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2018-03-01/metricalertsstatus"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2018-03-01/actiongroupsapis"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2018-03-01/metricalerts"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2018-03-01/metricalertsstatus"
 )
 
 type Client struct {

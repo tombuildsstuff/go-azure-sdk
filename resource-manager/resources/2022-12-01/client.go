@@ -6,10 +6,10 @@ package v2022_12_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2022-12-01/subscriptions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2022-12-01/tenants"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/resources/2022-12-01/subscriptions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/resources/2022-12-01/tenants"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

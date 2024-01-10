@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/replications` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/replications` Documentation
 
 The `replications` SDK allows for interaction with the Azure Resource Manager Service `containerregistry` (API Version `2021-08-01-preview`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/replications"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/replications"
 ```
 
 

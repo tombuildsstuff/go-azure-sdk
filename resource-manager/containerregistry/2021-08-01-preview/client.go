@@ -6,19 +6,19 @@ package v2021_08_01_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/connectedregistries"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/exportpipelines"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/importpipelines"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/operation"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/pipelineruns"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/registries"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/replications"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/scopemaps"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/tokens"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/webhooks"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/connectedregistries"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/exportpipelines"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/importpipelines"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/operation"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/pipelineruns"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/privateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/registries"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/replications"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/scopemaps"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/tokens"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2021-08-01-preview/webhooks"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

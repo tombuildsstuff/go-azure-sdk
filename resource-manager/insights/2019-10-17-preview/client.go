@@ -5,10 +5,10 @@ package v2019_10_17_preview
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2019-10-17-preview/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2019-10-17-preview/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2019-10-17-preview/privatelinkscopedresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2019-10-17-preview/privatelinkscopesapis"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2019-10-17-preview/privateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2019-10-17-preview/privatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2019-10-17-preview/privatelinkscopedresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2019-10-17-preview/privatelinkscopesapis"
 )
 
 type Client struct {

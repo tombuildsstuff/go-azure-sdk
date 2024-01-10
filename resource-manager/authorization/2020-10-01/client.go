@@ -6,17 +6,17 @@ package v2020_10_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2020-10-01/eligiblechildresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2020-10-01/roleassignmentscheduleinstances"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2020-10-01/roleassignmentschedulerequests"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2020-10-01/roleassignmentschedules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2020-10-01/roleeligibilityscheduleinstances"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2020-10-01/roleeligibilityschedulerequests"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2020-10-01/roleeligibilityschedules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2020-10-01/rolemanagementpolicies"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/authorization/2020-10-01/rolemanagementpolicyassignments"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/authorization/2020-10-01/eligiblechildresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/authorization/2020-10-01/roleassignmentscheduleinstances"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/authorization/2020-10-01/roleassignmentschedulerequests"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/authorization/2020-10-01/roleassignmentschedules"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/authorization/2020-10-01/roleeligibilityscheduleinstances"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/authorization/2020-10-01/roleeligibilityschedulerequests"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/authorization/2020-10-01/roleeligibilityschedules"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/authorization/2020-10-01/rolemanagementpolicies"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/authorization/2020-10-01/rolemanagementpolicyassignments"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

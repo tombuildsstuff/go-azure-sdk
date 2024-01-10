@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/vmware/2023-03-01/zone` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/vmware/2023-03-01/zone` Documentation
 
 The `zone` SDK allows for interaction with the Azure Resource Manager Service `vmware` (API Version `2023-03-01`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/vmware/2023-03-01/zone"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/vmware/2023-03-01/zone"
 ```
 
 

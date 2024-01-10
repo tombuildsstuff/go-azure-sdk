@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/operationsmanagement/2015-11-01-preview/managementassociation` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/operationsmanagement/2015-11-01-preview/managementassociation` Documentation
 
 The `managementassociation` SDK allows for interaction with the Azure Resource Manager Service `operationsmanagement` (API Version `2015-11-01-preview`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/operationsmanagement/2015-11-01-preview/managementassociation"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/operationsmanagement/2015-11-01-preview/managementassociation"
 ```
 
 

@@ -5,12 +5,12 @@ package v2019_01_01_preview
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2019-01-01-preview/alertssuppressionrules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2019-01-01-preview/assessments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2019-01-01-preview/assessmentsmetadata"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2019-01-01-preview/automations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2019-01-01-preview/regulatorycompliance"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2019-01-01-preview/subassessments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2019-01-01-preview/alertssuppressionrules"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2019-01-01-preview/assessments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2019-01-01-preview/assessmentsmetadata"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2019-01-01-preview/automations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2019-01-01-preview/regulatorycompliance"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2019-01-01-preview/subassessments"
 )
 
 type Client struct {

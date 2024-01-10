@@ -5,9 +5,9 @@ package v2022_12_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/loadtestservice/2022-12-01/loadtest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/loadtestservice/2022-12-01/loadtests"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/loadtestservice/2022-12-01/quotas"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/loadtestservice/2022-12-01/loadtest"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/loadtestservice/2022-12-01/loadtests"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/loadtestservice/2022-12-01/quotas"
 )
 
 type Client struct {

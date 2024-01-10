@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/servicenetworking/2023-11-01/frontendsinterface` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicenetworking/2023-11-01/frontendsinterface` Documentation
 
 The `frontendsinterface` SDK allows for interaction with the Azure Resource Manager Service `servicenetworking` (API Version `2023-11-01`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/servicenetworking/2023-11-01/frontendsinterface"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicenetworking/2023-11-01/frontendsinterface"
 ```
 
 

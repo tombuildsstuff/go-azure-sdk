@@ -6,19 +6,19 @@ package v2023_01_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2023-01-01/agreements"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2023-01-01/apikey"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2023-01-01/createresource"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2023-01-01/hosts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2023-01-01/linkedresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2023-01-01/monitoredresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2023-01-01/monitoredsubscriptions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2023-01-01/monitorsresource"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2023-01-01/refreshsetpasswordlink"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2023-01-01/rules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datadog/2023-01-01/singlesignon"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datadog/2023-01-01/agreements"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datadog/2023-01-01/apikey"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datadog/2023-01-01/createresource"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datadog/2023-01-01/hosts"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datadog/2023-01-01/linkedresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datadog/2023-01-01/monitoredresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datadog/2023-01-01/monitoredsubscriptions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datadog/2023-01-01/monitorsresource"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datadog/2023-01-01/refreshsetpasswordlink"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datadog/2023-01-01/rules"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datadog/2023-01-01/singlesignon"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

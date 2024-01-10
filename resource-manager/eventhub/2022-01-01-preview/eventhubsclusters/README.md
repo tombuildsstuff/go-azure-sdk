@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/eventhub/2022-01-01-preview/eventhubsclusters` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/eventhub/2022-01-01-preview/eventhubsclusters` Documentation
 
 The `eventhubsclusters` SDK allows for interaction with the Azure Resource Manager Service `eventhub` (API Version `2022-01-01-preview`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/eventhub/2022-01-01-preview/eventhubsclusters"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/eventhub/2022-01-01-preview/eventhubsclusters"
 ```
 
 

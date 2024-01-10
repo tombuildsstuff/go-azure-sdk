@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2023-04-01/sapsupportedsku` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/workloads/2023-04-01/sapsupportedsku` Documentation
 
 The `sapsupportedsku` SDK allows for interaction with the Azure Resource Manager Service `workloads` (API Version `2023-04-01`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/workloads/2023-04-01/sapsupportedsku"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/workloads/2023-04-01/sapsupportedsku"
 ```
 
 

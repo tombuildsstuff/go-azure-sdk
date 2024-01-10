@@ -6,17 +6,17 @@ package v2018_06_01_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/applications"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/clusters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/configurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/extensions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/promote"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/regions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/scriptactions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/scriptexecutionhistory"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/virtualmachines"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/applications"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/clusters"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/configurations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/extensions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/promote"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/regions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/scriptactions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/scriptexecutionhistory"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/hdinsight/2018-06-01-preview/virtualmachines"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

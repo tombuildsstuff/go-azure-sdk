@@ -6,17 +6,17 @@ package v2018_06_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2018-06-01/advisors"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2018-06-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2018-06-01/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2018-06-01/querytexts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2018-06-01/recommendedactions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2018-06-01/recommendedactionsessions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2018-06-01/resetqueryperformanceinsightdata"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2018-06-01/topquerystatistics"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/postgresql/2018-06-01/waitstatistics"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/postgresql/2018-06-01/advisors"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/postgresql/2018-06-01/privateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/postgresql/2018-06-01/privatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/postgresql/2018-06-01/querytexts"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/postgresql/2018-06-01/recommendedactions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/postgresql/2018-06-01/recommendedactionsessions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/postgresql/2018-06-01/resetqueryperformanceinsightdata"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/postgresql/2018-06-01/topquerystatistics"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/postgresql/2018-06-01/waitstatistics"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -5,7 +5,7 @@ package v2018_04_16
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2018-04-16/scheduledqueryrules"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2018-04-16/scheduledqueryrules"
 )
 
 type Client struct {

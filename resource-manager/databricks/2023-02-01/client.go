@@ -6,15 +6,15 @@ package v2023_02_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/databricks/2023-02-01/delete"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/databricks/2023-02-01/outboundnetworkdependenciesendpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/databricks/2023-02-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/databricks/2023-02-01/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/databricks/2023-02-01/put"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/databricks/2023-02-01/vnetpeering"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/databricks/2023-02-01/workspaces"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/databricks/2023-02-01/delete"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/databricks/2023-02-01/outboundnetworkdependenciesendpoints"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/databricks/2023-02-01/privateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/databricks/2023-02-01/privatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/databricks/2023-02-01/put"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/databricks/2023-02-01/vnetpeering"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/databricks/2023-02-01/workspaces"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

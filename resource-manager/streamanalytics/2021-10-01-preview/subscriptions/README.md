@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/subscriptions` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/subscriptions` Documentation
 
 The `subscriptions` SDK allows for interaction with the Azure Resource Manager Service `streamanalytics` (API Version `2021-10-01-preview`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/subscriptions"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/subscriptions"
 ```
 
 

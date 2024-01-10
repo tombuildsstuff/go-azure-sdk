@@ -22,8 +22,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/environments"
 	"github.com/hashicorp/go-uuid"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 	"golang.org/x/oauth2"
 )
 

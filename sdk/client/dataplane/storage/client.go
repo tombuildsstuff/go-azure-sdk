@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/auth"
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/dataplane"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/auth"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/dataplane"
 )
 
 var storageDefaultRetryFunctions = []client.RequestRetryFunc{

@@ -6,17 +6,17 @@ package v2022_09_10
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/getprivatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/listprivatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/recoveryservices"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/registeredidentities"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/replicationusages"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/vaultcertificates"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/vaultextendedinfo"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/vaults"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/vaultusages"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/getprivatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/listprivatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/recoveryservices"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/registeredidentities"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/replicationusages"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/vaultcertificates"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/vaultextendedinfo"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/vaults"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservices/2022-09-10/vaultusages"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

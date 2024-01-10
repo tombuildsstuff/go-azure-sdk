@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/eventgrid/2022-06-15/domaintopics` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/eventgrid/2022-06-15/domaintopics` Documentation
 
 The `domaintopics` SDK allows for interaction with the Azure Resource Manager Service `eventgrid` (API Version `2022-06-15`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/eventgrid/2022-06-15/domaintopics"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/eventgrid/2022-06-15/domaintopics"
 ```
 
 

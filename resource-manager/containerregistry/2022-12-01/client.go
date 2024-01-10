@@ -6,15 +6,15 @@ package v2022_12_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2022-12-01/operation"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2022-12-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2022-12-01/registries"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2022-12-01/replications"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2022-12-01/scopemaps"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2022-12-01/tokens"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerregistry/2022-12-01/webhooks"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2022-12-01/operation"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2022-12-01/privateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2022-12-01/registries"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2022-12-01/replications"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2022-12-01/scopemaps"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2022-12-01/tokens"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerregistry/2022-12-01/webhooks"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

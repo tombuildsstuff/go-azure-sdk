@@ -6,18 +6,18 @@ package v2018_04_19
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/customoperation"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/delete"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/get"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/patch"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/post"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/projectresource"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/put"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/serviceresource"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/standardoperation"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/datamigration/2018-04-19/taskresource"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datamigration/2018-04-19/customoperation"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datamigration/2018-04-19/delete"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datamigration/2018-04-19/get"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datamigration/2018-04-19/patch"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datamigration/2018-04-19/post"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datamigration/2018-04-19/projectresource"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datamigration/2018-04-19/put"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datamigration/2018-04-19/serviceresource"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datamigration/2018-04-19/standardoperation"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/datamigration/2018-04-19/taskresource"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

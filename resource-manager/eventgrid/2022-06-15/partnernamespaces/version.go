@@ -8,5 +8,5 @@ import "fmt"
 const defaultApiVersion = "2022-06-15"
 
 func userAgent() string {
-	return fmt.Sprintf("hashicorp/go-azure-sdk/partnernamespaces/%s", defaultApiVersion)
+	return fmt.Sprintf("tombuildsstuff/go-azure-sdk/partnernamespaces/%s", defaultApiVersion)
 }

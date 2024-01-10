@@ -6,11 +6,11 @@ package v2018_05_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dns/2018-05-01/dns"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dns/2018-05-01/recordsets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dns/2018-05-01/zones"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dns/2018-05-01/dns"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dns/2018-05-01/recordsets"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dns/2018-05-01/zones"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

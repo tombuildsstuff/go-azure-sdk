@@ -5,10 +5,10 @@ package v2023_10_15
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-10-15/fleetmembers"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-10-15/fleets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-10-15/fleetupdatestrategies"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2023-10-15/updateruns"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2023-10-15/fleetmembers"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2023-10-15/fleets"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2023-10-15/fleetupdatestrategies"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2023-10-15/updateruns"
 )
 
 type Client struct {

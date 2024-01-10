@@ -9,9 +9,9 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	"github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 func TestNewPoller_LongRunningOperation(t *testing.T) {

@@ -6,14 +6,14 @@ package v2021_10_01_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2021-10-01-preview/image"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2021-10-01-preview/lab"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2021-10-01-preview/labplan"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2021-10-01-preview/schedule"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2021-10-01-preview/user"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2021-10-01-preview/virtualmachine"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/labservices/2021-10-01-preview/image"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/labservices/2021-10-01-preview/lab"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/labservices/2021-10-01-preview/labplan"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/labservices/2021-10-01-preview/schedule"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/labservices/2021-10-01-preview/user"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/labservices/2021-10-01-preview/virtualmachine"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

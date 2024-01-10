@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/hashicorp/go-azure-sdk/sdk/odata"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/odata"
 )
 
 func TestODataId(t *testing.T) {

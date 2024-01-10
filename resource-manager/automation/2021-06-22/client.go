@@ -5,13 +5,13 @@ package v2021_06_22
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automation/2021-06-22/automationaccount"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automation/2021-06-22/hybridrunbookworker"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automation/2021-06-22/hybridrunbookworkergroup"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automation/2021-06-22/listkeys"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automation/2021-06-22/operations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automation/2021-06-22/statistics"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/automation/2021-06-22/usages"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/automation/2021-06-22/automationaccount"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/automation/2021-06-22/hybridrunbookworker"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/automation/2021-06-22/hybridrunbookworkergroup"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/automation/2021-06-22/listkeys"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/automation/2021-06-22/operations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/automation/2021-06-22/statistics"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/automation/2021-06-22/usages"
 )
 
 type Client struct {

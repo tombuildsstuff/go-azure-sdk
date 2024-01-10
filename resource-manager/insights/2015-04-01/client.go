@@ -5,11 +5,11 @@ package v2015_04_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2015-04-01/activitylogs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2015-04-01/autoscaleapis"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2015-04-01/autoscalesettings"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2015-04-01/eventcategories"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2015-04-01/tenantactivitylogs"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2015-04-01/activitylogs"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2015-04-01/autoscaleapis"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2015-04-01/autoscalesettings"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2015-04-01/eventcategories"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2015-04-01/tenantactivitylogs"
 )
 
 type Client struct {

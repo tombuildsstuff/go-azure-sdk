@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/logz/2020-10-01/tagrules` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/logz/2020-10-01/tagrules` Documentation
 
 The `tagrules` SDK allows for interaction with the Azure Resource Manager Service `logz` (API Version `2020-10-01`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/logz/2020-10-01/tagrules"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/logz/2020-10-01/tagrules"
 ```
 
 

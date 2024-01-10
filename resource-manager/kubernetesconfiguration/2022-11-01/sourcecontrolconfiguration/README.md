@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/kubernetesconfiguration/2022-11-01/sourcecontrolconfiguration` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/kubernetesconfiguration/2022-11-01/sourcecontrolconfiguration` Documentation
 
 The `sourcecontrolconfiguration` SDK allows for interaction with the Azure Resource Manager Service `kubernetesconfiguration` (API Version `2022-11-01`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/kubernetesconfiguration/2022-11-01/sourcecontrolconfiguration"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/kubernetesconfiguration/2022-11-01/sourcecontrolconfiguration"
 ```
 
 

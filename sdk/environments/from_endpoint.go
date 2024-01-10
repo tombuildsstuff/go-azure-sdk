@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/internal/metadata"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/internal/metadata"
 )
 
 // FromEndpoint attempts to load an environment from the given Endpoint.

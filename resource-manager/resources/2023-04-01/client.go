@@ -6,13 +6,13 @@ package v2023_04_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2023-04-01/policyassignments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2023-04-01/policydefinitions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2023-04-01/policydefinitionversions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2023-04-01/policysetdefinitions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2023-04-01/policysetdefinitionversions"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/resources/2023-04-01/policyassignments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/resources/2023-04-01/policydefinitions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/resources/2023-04-01/policydefinitionversions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/resources/2023-04-01/policysetdefinitions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/resources/2023-04-01/policysetdefinitionversions"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

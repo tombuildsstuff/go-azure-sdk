@@ -5,8 +5,8 @@ package v2023_10_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2023-10-01/metricdefinitions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2023-10-01/metrics"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2023-10-01/metricdefinitions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2023-10-01/metrics"
 )
 
 type Client struct {

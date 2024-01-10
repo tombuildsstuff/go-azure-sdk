@@ -5,13 +5,13 @@ package v2021_06_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabric/2021-06-01/application"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabric/2021-06-01/applicationtype"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabric/2021-06-01/applicationtypeversion"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabric/2021-06-01/cluster"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabric/2021-06-01/clusterversion"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabric/2021-06-01/listupgradableversions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabric/2021-06-01/service"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicefabric/2021-06-01/application"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicefabric/2021-06-01/applicationtype"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicefabric/2021-06-01/applicationtypeversion"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicefabric/2021-06-01/cluster"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicefabric/2021-06-01/clusterversion"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicefabric/2021-06-01/listupgradableversions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicefabric/2021-06-01/service"
 )
 
 type Client struct {

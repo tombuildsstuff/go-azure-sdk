@@ -6,13 +6,13 @@ package v2022_04_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/trafficmanager/2022-04-01/endpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/trafficmanager/2022-04-01/geographichierarchies"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/trafficmanager/2022-04-01/heatmaps"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/trafficmanager/2022-04-01/profiles"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/trafficmanager/2022-04-01/realusermetrics"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/trafficmanager/2022-04-01/endpoints"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/trafficmanager/2022-04-01/geographichierarchies"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/trafficmanager/2022-04-01/heatmaps"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/trafficmanager/2022-04-01/profiles"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/trafficmanager/2022-04-01/realusermetrics"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

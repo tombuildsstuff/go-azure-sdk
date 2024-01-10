@@ -5,14 +5,14 @@ package v2020_03_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/clusters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/functions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/inputs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/outputs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/privateendpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/streamingjobs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/subscriptions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/transformations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/clusters"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/functions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/inputs"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/outputs"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/privateendpoints"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/streamingjobs"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/subscriptions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/streamanalytics/2020-03-01/transformations"
 )
 
 type Client struct {

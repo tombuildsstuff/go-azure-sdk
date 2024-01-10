@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/security/2017-08-01-preview/iotsecuritysolutionsanalytics` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2017-08-01-preview/iotsecuritysolutionsanalytics` Documentation
 
 The `iotsecuritysolutionsanalytics` SDK allows for interaction with the Azure Resource Manager Service `security` (API Version `2017-08-01-preview`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/security/2017-08-01-preview/iotsecuritysolutionsanalytics"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2017-08-01-preview/iotsecuritysolutionsanalytics"
 ```
 
 

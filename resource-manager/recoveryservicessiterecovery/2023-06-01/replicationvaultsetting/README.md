@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservicessiterecovery/2023-06-01/replicationvaultsetting` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservicessiterecovery/2023-06-01/replicationvaultsetting` Documentation
 
 The `replicationvaultsetting` SDK allows for interaction with the Azure Resource Manager Service `recoveryservicessiterecovery` (API Version `2023-06-01`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservicessiterecovery/2023-06-01/replicationvaultsetting"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservicessiterecovery/2023-06-01/replicationvaultsetting"
 ```
 
 

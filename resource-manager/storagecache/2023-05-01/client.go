@@ -6,14 +6,14 @@ package v2023_05_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/storagecache/2023-05-01/amlfilesystems"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/storagecache/2023-05-01/ascusages"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/storagecache/2023-05-01/caches"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/storagecache/2023-05-01/skus"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/storagecache/2023-05-01/storagetargets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/storagecache/2023-05-01/usagemodels"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/storagecache/2023-05-01/amlfilesystems"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/storagecache/2023-05-01/ascusages"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/storagecache/2023-05-01/caches"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/storagecache/2023-05-01/skus"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/storagecache/2023-05-01/storagetargets"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/storagecache/2023-05-01/usagemodels"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

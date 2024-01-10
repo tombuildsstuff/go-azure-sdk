@@ -6,11 +6,11 @@ package v2021_06_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2021-06-01/policyassignments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2021-06-01/policydefinitions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/resources/2021-06-01/policysetdefinitions"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/resources/2021-06-01/policyassignments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/resources/2021-06-01/policydefinitions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/resources/2021-06-01/policysetdefinitions"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

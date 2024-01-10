@@ -15,8 +15,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/pollers"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/pollers"
 )
 
 var _ pollers.PollerType = &longRunningOperationPoller{}
@@ -181,13 +181,13 @@ func (p *longRunningOperationPoller) Poll(ctx context.Context) (result *pollers.
 			// KubernetesConfiguration@2022-11-01 returns `Updating` rather than `InProgress` during update
 			"Updating": pollers.PollingStatusInProgress,
 			// StorageSync@2020-03-01 returns `validateInput`, `newPrivateDnsEntries`, `finishNewStorageSyncService` rather than `InProgress` during creation/update
-			// See: https://github.com/hashicorp/go-azure-sdk/issues/565
+			// See: https://github.com/tombuildsstuff/go-azure-sdk/issues/565
 			"validateInput":                    pollers.PollingStatusInProgress,
 			"newPrivateDnsEntries":             pollers.PollingStatusInProgress,
 			"newManagedIdentityCredentialStep": pollers.PollingStatusInProgress,
 			"finishNewStorageSyncService":      pollers.PollingStatusInProgress,
 			// StorageSync@2020-03-01 (CloudEndpoints) returns `newReplicaGroup` rather than `InProgress` during creation/update
-			// See: https://github.com/hashicorp/go-azure-sdk/issues/565
+			// See: https://github.com/tombuildsstuff/go-azure-sdk/issues/565
 			"newReplicaGroup": pollers.PollingStatusInProgress,
 			// SAPVirtualInstance @ 2023-04-01 returns `Preparing System Configuration` during Creation
 			"Preparing System Configuration": pollers.PollingStatusInProgress,

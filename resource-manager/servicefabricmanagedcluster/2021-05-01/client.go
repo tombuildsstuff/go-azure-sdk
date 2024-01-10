@@ -5,14 +5,14 @@ package v2021_05_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/application"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/applicationtype"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/applicationtypeversion"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/managedcluster"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/managedclusterversion"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/nodetype"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/service"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/services"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/application"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/applicationtype"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/applicationtypeversion"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/managedcluster"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/managedclusterversion"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/nodetype"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/service"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/servicefabricmanagedcluster/2021-05-01/services"
 )
 
 type Client struct {

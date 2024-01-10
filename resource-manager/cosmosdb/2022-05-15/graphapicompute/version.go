@@ -8,5 +8,5 @@ import "fmt"
 const defaultApiVersion = "2022-05-15"
 
 func userAgent() string {
-	return fmt.Sprintf("hashicorp/go-azure-sdk/graphapicompute/%s", defaultApiVersion)
+	return fmt.Sprintf("tombuildsstuff/go-azure-sdk/graphapicompute/%s", defaultApiVersion)
 }

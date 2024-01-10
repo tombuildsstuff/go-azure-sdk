@@ -5,10 +5,10 @@ package v2020_05_15
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/timeseriesinsights/2020-05-15/accesspolicies"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/timeseriesinsights/2020-05-15/environments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/timeseriesinsights/2020-05-15/eventsources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/timeseriesinsights/2020-05-15/referencedatasets"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/timeseriesinsights/2020-05-15/accesspolicies"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/timeseriesinsights/2020-05-15/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/timeseriesinsights/2020-05-15/eventsources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/timeseriesinsights/2020-05-15/referencedatasets"
 )
 
 type Client struct {

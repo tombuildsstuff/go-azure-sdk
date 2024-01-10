@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/connectedvmware/2022-01-10-preview/hybrididentitymetadata` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/connectedvmware/2022-01-10-preview/hybrididentitymetadata` Documentation
 
 The `hybrididentitymetadata` SDK allows for interaction with the Azure Resource Manager Service `connectedvmware` (API Version `2022-01-10-preview`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/connectedvmware/2022-01-10-preview/hybrididentitymetadata"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/connectedvmware/2022-01-10-preview/hybrididentitymetadata"
 ```
 
 

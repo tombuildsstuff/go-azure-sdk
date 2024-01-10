@@ -1,4 +1,4 @@
-# `github.com/hashicorp/go-azure-sdk/resource-manager`
+# `github.com/tombuildsstuff/go-azure-sdk/resource-manager`
 
 This SDK is an opinionated Go SDK for Azure Resource Manager, primarily intended to be used in the [Terraform AzureRM Provider](https://github.com/hashicorp/terraform-provider-azurerm) and the [Packer Azure Plugin](https://github.com/hashicorp/packer-plugin-azure).
 

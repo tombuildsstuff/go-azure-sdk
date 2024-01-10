@@ -6,13 +6,13 @@ package v2022_06_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redis/2022-06-01/firewallrules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redis/2022-06-01/patchschedules"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redis/2022-06-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redis/2022-06-01/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/redis/2022-06-01/redis"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/redis/2022-06-01/firewallrules"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/redis/2022-06-01/patchschedules"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/redis/2022-06-01/privateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/redis/2022-06-01/privatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/redis/2022-06-01/redis"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

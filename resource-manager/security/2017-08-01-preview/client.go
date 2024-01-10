@@ -5,17 +5,17 @@ package v2017_08_01_preview
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2017-08-01-preview/advancedthreatprotection"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2017-08-01-preview/autoprovisioningsettings"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2017-08-01-preview/compliances"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2017-08-01-preview/devicesecuritygroups"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2017-08-01-preview/informationprotectionpolicies"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2017-08-01-preview/iotsecuritysolutions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2017-08-01-preview/iotsecuritysolutionsanalytics"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2017-08-01-preview/pricings"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2017-08-01-preview/securitycontacts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2017-08-01-preview/settings"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2017-08-01-preview/workspacesettings"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2017-08-01-preview/advancedthreatprotection"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2017-08-01-preview/autoprovisioningsettings"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2017-08-01-preview/compliances"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2017-08-01-preview/devicesecuritygroups"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2017-08-01-preview/informationprotectionpolicies"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2017-08-01-preview/iotsecuritysolutions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2017-08-01-preview/iotsecuritysolutionsanalytics"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2017-08-01-preview/pricings"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2017-08-01-preview/securitycontacts"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2017-08-01-preview/settings"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2017-08-01-preview/workspacesettings"
 )
 
 type Client struct {

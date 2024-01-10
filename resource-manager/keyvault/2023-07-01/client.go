@@ -5,17 +5,17 @@ package v2023_07_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/keys"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/managedhsmkeys"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/managedhsms"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/mhsmlistprivateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/mhsmlistregions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/mhsmprivateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/mhsmprivatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/secrets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/keyvault/2023-07-01/vaults"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/keyvault/2023-07-01/keys"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/keyvault/2023-07-01/managedhsmkeys"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/keyvault/2023-07-01/managedhsms"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/keyvault/2023-07-01/mhsmlistprivateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/keyvault/2023-07-01/mhsmlistregions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/keyvault/2023-07-01/mhsmprivateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/keyvault/2023-07-01/mhsmprivatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/keyvault/2023-07-01/privateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/keyvault/2023-07-01/privatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/keyvault/2023-07-01/secrets"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/keyvault/2023-07-01/vaults"
 )
 
 type Client struct {

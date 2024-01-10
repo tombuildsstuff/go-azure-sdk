@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/hardwaresecuritymodules/2021-11-30/dedicatedhsms` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/hardwaresecuritymodules/2021-11-30/dedicatedhsms` Documentation
 
 The `dedicatedhsms` SDK allows for interaction with the Azure Resource Manager Service `hardwaresecuritymodules` (API Version `2021-11-30`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/hardwaresecuritymodules/2021-11-30/dedicatedhsms"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/hardwaresecuritymodules/2021-11-30/dedicatedhsms"
 ```
 
 

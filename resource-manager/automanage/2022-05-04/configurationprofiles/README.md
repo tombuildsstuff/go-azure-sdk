@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/automanage/2022-05-04/configurationprofiles` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/automanage/2022-05-04/configurationprofiles` Documentation
 
 The `configurationprofiles` SDK allows for interaction with the Azure Resource Manager Service `automanage` (API Version `2022-05-04`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/automanage/2022-05-04/configurationprofiles"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/automanage/2022-05-04/configurationprofiles"
 ```
 
 

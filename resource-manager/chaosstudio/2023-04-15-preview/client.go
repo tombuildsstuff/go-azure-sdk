@@ -6,13 +6,13 @@ package v2023_04_15_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/chaosstudio/2023-04-15-preview/capabilities"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/chaosstudio/2023-04-15-preview/capabilitytypes"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/chaosstudio/2023-04-15-preview/experiments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/chaosstudio/2023-04-15-preview/targets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/chaosstudio/2023-04-15-preview/targettypes"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/chaosstudio/2023-04-15-preview/capabilities"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/chaosstudio/2023-04-15-preview/capabilitytypes"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/chaosstudio/2023-04-15-preview/experiments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/chaosstudio/2023-04-15-preview/targets"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/chaosstudio/2023-04-15-preview/targettypes"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

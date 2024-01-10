@@ -6,13 +6,13 @@ package v2023_09_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dashboard/2023-09-01/grafanaplugin"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dashboard/2023-09-01/grafanaresource"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dashboard/2023-09-01/managedprivateendpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dashboard/2023-09-01/privateendpointconnection"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/dashboard/2023-09-01/privatelinkresource"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dashboard/2023-09-01/grafanaplugin"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dashboard/2023-09-01/grafanaresource"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dashboard/2023-09-01/managedprivateendpoints"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dashboard/2023-09-01/privateendpointconnection"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/dashboard/2023-09-01/privatelinkresource"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

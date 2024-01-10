@@ -5,9 +5,9 @@ package v2019_08_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2019-08-01/agentpools"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2019-08-01/containerservices"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2019-08-01/managedclusters"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2019-08-01/agentpools"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2019-08-01/containerservices"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2019-08-01/managedclusters"
 )
 
 type Client struct {

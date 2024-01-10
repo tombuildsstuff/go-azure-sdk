@@ -5,15 +5,15 @@ package v2023_01_15
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/aadproperties"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/backupcrrjobs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/backupprotecteditemscrr"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/backupresourcestorageconfigs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/backupusagesummariescrr"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/crossregionrestore"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/crrjobdetails"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/recoverypointscrr"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/recoverypointsgetaccesstoken"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/aadproperties"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/backupcrrjobs"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/backupprotecteditemscrr"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/backupresourcestorageconfigs"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/backupusagesummariescrr"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/crossregionrestore"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/crrjobdetails"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/recoverypointscrr"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/recoveryservicesbackup/2023-01-15/recoverypointsgetaccesstoken"
 )
 
 type Client struct {

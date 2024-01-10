@@ -5,7 +5,7 @@ package v2023_05_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerinstance/2023-05-01/containerinstance"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerinstance/2023-05-01/containerinstance"
 )
 
 type Client struct {

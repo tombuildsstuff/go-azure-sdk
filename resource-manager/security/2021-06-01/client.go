@@ -5,9 +5,9 @@ package v2021_06_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2021-06-01/assessments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2021-06-01/assessmentsmetadata"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2021-06-01/settings"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2021-06-01/assessments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2021-06-01/assessmentsmetadata"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2021-06-01/settings"
 )
 
 type Client struct {

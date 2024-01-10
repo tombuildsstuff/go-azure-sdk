@@ -6,17 +6,17 @@ package v2021_11_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/media/2021-11-01/accountfilters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/media/2021-11-01/accounts"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/media/2021-11-01/assetsandassetfilters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/media/2021-11-01/contentkeypolicies"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/media/2021-11-01/encodings"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/media/2021-11-01/liveevents"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/media/2021-11-01/liveoutputs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/media/2021-11-01/streamingendpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/media/2021-11-01/streamingpoliciesandstreaminglocators"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/media/2021-11-01/accountfilters"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/media/2021-11-01/accounts"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/media/2021-11-01/assetsandassetfilters"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/media/2021-11-01/contentkeypolicies"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/media/2021-11-01/encodings"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/media/2021-11-01/liveevents"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/media/2021-11-01/liveoutputs"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/media/2021-11-01/streamingendpoints"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/media/2021-11-01/streamingpoliciesandstreaminglocators"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

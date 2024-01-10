@@ -6,13 +6,13 @@ package v2023_01_31
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/digitaltwins/2023-01-31/checknameavailability"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/digitaltwins/2023-01-31/digitaltwinsinstance"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/digitaltwins/2023-01-31/endpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/digitaltwins/2023-01-31/privateendpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/digitaltwins/2023-01-31/timeseriesdatabaseconnections"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/digitaltwins/2023-01-31/checknameavailability"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/digitaltwins/2023-01-31/digitaltwinsinstance"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/digitaltwins/2023-01-31/endpoints"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/digitaltwins/2023-01-31/privateendpoints"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/digitaltwins/2023-01-31/timeseriesdatabaseconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -5,7 +5,7 @@ package v2023_05_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2023-05-01/servervulnerabilityassessmentssettings"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2023-05-01/servervulnerabilityassessmentssettings"
 )
 
 type Client struct {

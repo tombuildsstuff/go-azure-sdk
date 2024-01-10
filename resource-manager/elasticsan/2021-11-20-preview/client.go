@@ -6,13 +6,13 @@ package v2021_11_20_preview
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/elasticsan/2021-11-20-preview/elasticsan"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/elasticsan/2021-11-20-preview/elasticsans"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/elasticsan/2021-11-20-preview/elasticsanskus"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/elasticsan/2021-11-20-preview/volumegroups"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/elasticsan/2021-11-20-preview/volumes"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/elasticsan/2021-11-20-preview/elasticsan"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/elasticsan/2021-11-20-preview/elasticsans"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/elasticsan/2021-11-20-preview/elasticsanskus"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/elasticsan/2021-11-20-preview/volumegroups"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/elasticsan/2021-11-20-preview/volumes"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

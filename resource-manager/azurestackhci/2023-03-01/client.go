@@ -6,18 +6,18 @@ package v2023_03_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/arcsettings"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/cluster"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/clusters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/extensions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/offers"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/publishers"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/skuses"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/updateruns"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/updates"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/updatesummaries"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/arcsettings"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/cluster"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/clusters"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/extensions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/offers"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/publishers"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/skuses"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/updateruns"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/updates"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/azurestackhci/2023-03-01/updatesummaries"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

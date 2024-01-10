@@ -6,14 +6,14 @@ package v2022_09_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/search/2022-09-01/adminkeys"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/search/2022-09-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/search/2022-09-01/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/search/2022-09-01/querykeys"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/search/2022-09-01/services"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/search/2022-09-01/sharedprivatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/search/2022-09-01/adminkeys"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/search/2022-09-01/privateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/search/2022-09-01/privatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/search/2022-09-01/querykeys"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/search/2022-09-01/services"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/search/2022-09-01/sharedprivatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

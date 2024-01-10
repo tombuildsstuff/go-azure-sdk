@@ -21,10 +21,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/auth"
-	"github.com/hashicorp/go-azure-sdk/sdk/internal/accept"
-	"github.com/hashicorp/go-azure-sdk/sdk/odata"
 	"github.com/hashicorp/go-retryablehttp"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/auth"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/internal/accept"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/odata"
 )
 
 // RetryOn404ConsistencyFailureFunc can be used to retry a request when a 404 response is received
@@ -285,7 +285,7 @@ func NewClient(baseUri string, serviceName, apiVersion string) *Client {
 	}
 	return &Client{
 		BaseUri:   baseUri,
-		UserAgent: fmt.Sprintf("HashiCorp/go-azure-sdk (%s)", strings.Join(segments, " ")),
+		UserAgent: fmt.Sprintf("tombuildsstuff/go-azure-sdk (%s)", strings.Join(segments, " ")),
 	}
 }
 

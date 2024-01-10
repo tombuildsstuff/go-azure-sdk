@@ -1,4 +1,4 @@
-# `github.com/hashicorp/go-azure-sdk/microsoft-graph`
+# `github.com/tombuildsstuff/go-azure-sdk/microsoft-graph`
 
 This SDK is an opinionated Go SDK for Microsoft Graph, primarily intended to be used in the [Terraform AzureAD Provider](https://github.com/hashicorp/terraform-provider-azuread).
 

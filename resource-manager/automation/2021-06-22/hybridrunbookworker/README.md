@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/automation/2021-06-22/hybridrunbookworker` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/automation/2021-06-22/hybridrunbookworker` Documentation
 
 The `hybridrunbookworker` SDK allows for interaction with the Azure Resource Manager Service `automation` (API Version `2021-06-22`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/automation/2021-06-22/hybridrunbookworker"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/automation/2021-06-22/hybridrunbookworker"
 ```
 
 

@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/notificationhubs/2017-04-01/namespaces` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/notificationhubs/2017-04-01/namespaces` Documentation
 
 The `namespaces` SDK allows for interaction with the Azure Resource Manager Service `notificationhubs` (API Version `2017-04-01`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/notificationhubs/2017-04-01/namespaces"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/notificationhubs/2017-04-01/namespaces"
 ```
 
 

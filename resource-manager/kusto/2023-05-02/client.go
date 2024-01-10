@@ -5,18 +5,18 @@ package v2023_05_02
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kusto/2023-05-02/attacheddatabaseconfigurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kusto/2023-05-02/clusterprincipalassignments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kusto/2023-05-02/clusters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kusto/2023-05-02/databaseprincipalassignments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kusto/2023-05-02/databases"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kusto/2023-05-02/dataconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kusto/2023-05-02/kusto"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kusto/2023-05-02/managedprivateendpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kusto/2023-05-02/outboundnetworkdependenciesendpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kusto/2023-05-02/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kusto/2023-05-02/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/kusto/2023-05-02/scripts"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/kusto/2023-05-02/attacheddatabaseconfigurations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/kusto/2023-05-02/clusterprincipalassignments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/kusto/2023-05-02/clusters"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/kusto/2023-05-02/databaseprincipalassignments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/kusto/2023-05-02/databases"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/kusto/2023-05-02/dataconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/kusto/2023-05-02/kusto"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/kusto/2023-05-02/managedprivateendpoints"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/kusto/2023-05-02/outboundnetworkdependenciesendpoints"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/kusto/2023-05-02/privateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/kusto/2023-05-02/privatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/kusto/2023-05-02/scripts"
 )
 
 type Client struct {

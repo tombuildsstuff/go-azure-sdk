@@ -6,11 +6,11 @@ package v2023_09_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/notificationhubs/2023-09-01/hubs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/notificationhubs/2023-09-01/namespaces"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/notificationhubs/2023-09-01/privatelink"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/notificationhubs/2023-09-01/hubs"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/notificationhubs/2023-09-01/namespaces"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/notificationhubs/2023-09-01/privatelink"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

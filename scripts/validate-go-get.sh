@@ -10,9 +10,9 @@ cd ./tmp/go-get
 echo 'package main
 
 import (
-  _ "github.com/hashicorp/go-azure-sdk/microsoft-graph"
-  _ "github.com/hashicorp/go-azure-sdk/resource-manager/aadb2c/2021-04-01-preview/tenants"
-  _ "github.com/hashicorp/go-azure-sdk/sdk/environments"
+  _ "github.com/tombuildsstuff/go-azure-sdk/microsoft-graph"
+  _ "github.com/tombuildsstuff/go-azure-sdk/resource-manager/aadb2c/2021-04-01-preview/tenants"
+  _ "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 func main() {
@@ -20,11 +20,11 @@ func main() {
 ' > main.go
 echo "module github.com/some/fake-repo
 
-replace github.com/hashicorp/go-azure-sdk => ../../
+replace github.com/tombuildsstuff/go-azure-sdk => ../../
 
 go 1.21
   " > go.mod
-go get github.com/hashicorp/go-azure-sdk@latest
+go get github.com/tombuildsstuff/go-azure-sdk@latest
 
 if [[ ! $(go mod tidy) -eq 0 ]]; then
   echo "Go Mod Tidy failed"

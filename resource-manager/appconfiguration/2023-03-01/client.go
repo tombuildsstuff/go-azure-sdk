@@ -6,15 +6,15 @@ package v2023_03_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/appconfiguration/2023-03-01/configurationstores"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/appconfiguration/2023-03-01/deletedconfigurationstores"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/appconfiguration/2023-03-01/keyvalues"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/appconfiguration/2023-03-01/operations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/appconfiguration/2023-03-01/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/appconfiguration/2023-03-01/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/appconfiguration/2023-03-01/replicas"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/appconfiguration/2023-03-01/configurationstores"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/appconfiguration/2023-03-01/deletedconfigurationstores"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/appconfiguration/2023-03-01/keyvalues"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/appconfiguration/2023-03-01/operations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/appconfiguration/2023-03-01/privateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/appconfiguration/2023-03-01/privatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/appconfiguration/2023-03-01/replicas"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

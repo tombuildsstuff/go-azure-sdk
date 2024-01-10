@@ -5,10 +5,10 @@ package v2022_06_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2022-06-01/actiongroupsapis"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2022-06-01/datacollectionendpoints"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2022-06-01/datacollectionruleassociations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/insights/2022-06-01/datacollectionrules"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2022-06-01/actiongroupsapis"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2022-06-01/datacollectionendpoints"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2022-06-01/datacollectionruleassociations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/insights/2022-06-01/datacollectionrules"
 )
 
 type Client struct {

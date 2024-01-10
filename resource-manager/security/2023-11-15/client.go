@@ -5,11 +5,11 @@ package v2023_11_15
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2023-11-15/apimconfig"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2023-11-15/d4apicollection"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2023-11-15/d4apicollectionlist"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2023-11-15/offboardfromd4api"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/security/2023-11-15/onboardtod4api"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2023-11-15/apimconfig"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2023-11-15/d4apicollection"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2023-11-15/d4apicollectionlist"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2023-11-15/offboardfromd4api"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/security/2023-11-15/onboardtod4api"
 )
 
 type Client struct {

@@ -5,11 +5,11 @@ package v2023_04_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/maintenance/2023-04-01/applyupdates"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/maintenance/2023-04-01/configurationassignments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/maintenance/2023-04-01/maintenanceconfigurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/maintenance/2023-04-01/publicmaintenanceconfigurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/maintenance/2023-04-01/updates"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/maintenance/2023-04-01/applyupdates"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/maintenance/2023-04-01/configurationassignments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/maintenance/2023-04-01/maintenanceconfigurations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/maintenance/2023-04-01/publicmaintenanceconfigurations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/maintenance/2023-04-01/updates"
 )
 
 type Client struct {

@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/datalakestore/2016-11-01/virtualnetworkrules` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/datalakestore/2016-11-01/virtualnetworkrules` Documentation
 
 The `virtualnetworkrules` SDK allows for interaction with the Azure Resource Manager Service `datalakestore` (API Version `2016-11-01`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/datalakestore/2016-11-01/virtualnetworkrules"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/datalakestore/2016-11-01/virtualnetworkrules"
 ```
 
 

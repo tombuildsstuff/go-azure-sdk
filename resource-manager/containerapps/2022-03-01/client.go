@@ -5,15 +5,15 @@ package v2022_03_01
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerapps/2022-03-01/certificates"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerapps/2022-03-01/containerapps"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerapps/2022-03-01/containerappsauthconfigs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerapps/2022-03-01/containerappsrevisionreplicas"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerapps/2022-03-01/containerappsrevisions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerapps/2022-03-01/containerappssourcecontrols"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerapps/2022-03-01/daprcomponents"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerapps/2022-03-01/managedenvironments"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerapps/2022-03-01/managedenvironmentsstorages"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerapps/2022-03-01/certificates"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerapps/2022-03-01/containerapps"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerapps/2022-03-01/containerappsauthconfigs"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerapps/2022-03-01/containerappsrevisionreplicas"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerapps/2022-03-01/containerappsrevisions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerapps/2022-03-01/containerappssourcecontrols"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerapps/2022-03-01/daprcomponents"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerapps/2022-03-01/managedenvironments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerapps/2022-03-01/managedenvironmentsstorages"
 )
 
 type Client struct {

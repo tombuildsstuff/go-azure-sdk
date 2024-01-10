@@ -5,12 +5,12 @@ package v2021_10_01_preview
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/functions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/inputs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/outputs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/streamingjobs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/subscriptions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/transformations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/functions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/inputs"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/outputs"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/streamingjobs"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/subscriptions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/streamanalytics/2021-10-01-preview/transformations"
 )
 
 type Client struct {

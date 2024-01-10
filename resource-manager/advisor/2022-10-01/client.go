@@ -6,15 +6,15 @@ package v2022_10_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/advisor/2022-10-01/advisorscore"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/advisor/2022-10-01/configurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/advisor/2022-10-01/generaterecommendations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/advisor/2022-10-01/getrecommendations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/advisor/2022-10-01/metadata"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/advisor/2022-10-01/prediction"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/advisor/2022-10-01/suppressions"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/advisor/2022-10-01/advisorscore"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/advisor/2022-10-01/configurations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/advisor/2022-10-01/generaterecommendations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/advisor/2022-10-01/getrecommendations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/advisor/2022-10-01/metadata"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/advisor/2022-10-01/prediction"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/advisor/2022-10-01/suppressions"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

@@ -5,17 +5,17 @@ package v2022_09_02_preview
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/agentpools"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/fleetmembers"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/fleets"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/maintenanceconfigurations"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/managedclusters"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/managedclustersnapshots"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/resolveprivatelinkserviceid"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/snapshots"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/trustedaccess"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/agentpools"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/fleetmembers"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/fleets"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/maintenanceconfigurations"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/managedclusters"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/managedclustersnapshots"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/privateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/privatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/resolveprivatelinkserviceid"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/snapshots"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/containerservice/2022-09-02-preview/trustedaccess"
 )
 
 type Client struct {

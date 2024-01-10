@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/mobilenetwork/2022-11-01/mobilenetwork` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/mobilenetwork/2022-11-01/mobilenetwork` Documentation
 
 The `mobilenetwork` SDK allows for interaction with the Azure Resource Manager Service `mobilenetwork` (API Version `2022-11-01`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/mobilenetwork/2022-11-01/mobilenetwork"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/mobilenetwork/2022-11-01/mobilenetwork"
 ```
 
 

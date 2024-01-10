@@ -6,16 +6,16 @@ package v2022_08_01
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2022-08-01/image"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2022-08-01/lab"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2022-08-01/labplan"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2022-08-01/schedule"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2022-08-01/skus"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2022-08-01/usages"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2022-08-01/user"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/labservices/2022-08-01/virtualmachine"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/labservices/2022-08-01/image"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/labservices/2022-08-01/lab"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/labservices/2022-08-01/labplan"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/labservices/2022-08-01/schedule"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/labservices/2022-08-01/skus"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/labservices/2022-08-01/usages"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/labservices/2022-08-01/user"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/labservices/2022-08-01/virtualmachine"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

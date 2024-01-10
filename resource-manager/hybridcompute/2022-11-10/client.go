@@ -6,15 +6,15 @@ package v2022_11_10
 import (
 	"fmt"
 
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2022-11-10/extensions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2022-11-10/machineextensions"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2022-11-10/machineextensionsupgrade"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2022-11-10/machines"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2022-11-10/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2022-11-10/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/hybridcompute/2022-11-10/privatelinkscopes"
-	"github.com/hashicorp/go-azure-sdk/sdk/client/resourcemanager"
-	sdkEnv "github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/hybridcompute/2022-11-10/extensions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/hybridcompute/2022-11-10/machineextensions"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/hybridcompute/2022-11-10/machineextensionsupgrade"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/hybridcompute/2022-11-10/machines"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/hybridcompute/2022-11-10/privateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/hybridcompute/2022-11-10/privatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/hybridcompute/2022-11-10/privatelinkscopes"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client/resourcemanager"
+	sdkEnv "github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 type Client struct {

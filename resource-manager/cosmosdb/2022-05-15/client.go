@@ -5,18 +5,18 @@ package v2022_05_15
 
 import (
 	"github.com/Azure/go-autorest/autorest"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/cosmosdb"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/datatransfer"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/graphapicompute"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/managedcassandras"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/materializedviewsbuilder"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/notebookworkspacesresource"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/privateendpointconnections"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/privatelinkresources"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/rbacs"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/restorables"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/services"
-	"github.com/hashicorp/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/sqldedicatedgateway"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/cosmosdb"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/datatransfer"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/graphapicompute"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/managedcassandras"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/materializedviewsbuilder"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/notebookworkspacesresource"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/privateendpointconnections"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/privatelinkresources"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/rbacs"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/restorables"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/services"
+	"github.com/tombuildsstuff/go-azure-sdk/resource-manager/cosmosdb/2022-05-15/sqldedicatedgateway"
 )
 
 type Client struct {

@@ -1,14 +1,14 @@
 
-## `github.com/hashicorp/go-azure-sdk/resource-manager/securityinsights/2021-09-01-preview/incidentbookmarks` Documentation
+## `github.com/tombuildsstuff/go-azure-sdk/resource-manager/securityinsights/2021-09-01-preview/incidentbookmarks` Documentation
 
 The `incidentbookmarks` SDK allows for interaction with the Azure Resource Manager Service `securityinsights` (API Version `2021-09-01-preview`).
 
-This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/hashicorp/go-azure-sdk/tree/main/docs).
+This readme covers example usages, but further information on [using this SDK can be found in the project root](https://github.com/tombuildsstuff/go-azure-sdk/tree/main/docs).
 
 ### Import Path
 
 ```go
-import "github.com/hashicorp/go-azure-sdk/resource-manager/securityinsights/2021-09-01-preview/incidentbookmarks"
+import "github.com/tombuildsstuff/go-azure-sdk/resource-manager/securityinsights/2021-09-01-preview/incidentbookmarks"
 ```
 
 
