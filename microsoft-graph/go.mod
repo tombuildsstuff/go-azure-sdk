@@ -1,4 +1,4 @@
-module github.com/tombuildsstuff/go-azure-sdk/microsoft-graph
+module github.com/hashicorp/go-azure-sdk/microsoft-graph
 
 go 1.21.3
 
