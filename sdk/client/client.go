@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/auth"
-	"github.com/hashicorp/go-azure-sdk/sdk/internal/accept"
-	"github.com/hashicorp/go-azure-sdk/sdk/odata"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/auth"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/internal/accept"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/odata"
 	"github.com/hashicorp/go-retryablehttp"
 )
 

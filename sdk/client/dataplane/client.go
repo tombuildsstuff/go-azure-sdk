@@ -6,7 +6,7 @@ package dataplane
 import (
 	"context"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/client"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/client"
 )
 
 type Client struct {

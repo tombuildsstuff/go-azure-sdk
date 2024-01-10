@@ -6,7 +6,7 @@ package test
 import (
 	"bytes"
 	"fmt"
-	"github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 	"io"
 	"net/http"
 	"net/url"

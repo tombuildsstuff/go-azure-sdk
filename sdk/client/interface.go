@@ -7,7 +7,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/odata"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/odata"
 )
 
 type BaseClient interface {

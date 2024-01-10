@@ -17,8 +17,8 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-azure-helpers/lang/pointer"
-	"github.com/hashicorp/go-azure-sdk/sdk/internal/test"
-	"github.com/hashicorp/go-azure-sdk/sdk/odata"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/internal/test"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/odata"
 )
 
 var _ BaseClient = &testClient{}

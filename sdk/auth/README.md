@@ -1,4 +1,4 @@
-# Package: `github.com/hashicorp/go-azure-sdk/sdk/auth`
+# Package: `github.com/tombuildsstuff/go-azure-sdk/sdk/auth`
 
 This package contains Authorizers which can be used to authenticate calls to the Azure APIs for use with `hashicorp/go-azure-sdk`. 
 
@@ -11,8 +11,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/auth"
-	"github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/auth"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 func main() {
@@ -38,8 +38,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/auth"
-	"github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/auth"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 func main() {
@@ -65,8 +65,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/auth"
-	"github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/auth"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 func main() {
@@ -93,8 +93,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/auth"
-	"github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/auth"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 func main() {
@@ -121,8 +121,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/auth"
-	"github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/auth"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 func main() {
@@ -150,8 +150,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/auth"
-	"github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/auth"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 func main() {

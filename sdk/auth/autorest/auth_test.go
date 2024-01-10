@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/Azure/go-autorest/autorest"
-	authWrapper "github.com/hashicorp/go-azure-sdk/sdk/auth/autorest"
-	"github.com/hashicorp/go-azure-sdk/sdk/internal/test"
+	authWrapper "github.com/tombuildsstuff/go-azure-sdk/sdk/auth/autorest"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/internal/test"
 )
 
 func TestAuthorizerWithAuthorization(t *testing.T) {

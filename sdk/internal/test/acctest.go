@@ -9,9 +9,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hashicorp/go-azure-sdk/sdk/auth"
-	"github.com/hashicorp/go-azure-sdk/sdk/claims"
-	"github.com/hashicorp/go-azure-sdk/sdk/environments"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/auth"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/claims"
+	"github.com/tombuildsstuff/go-azure-sdk/sdk/environments"
 )
 
 func AccTest(t *testing.T) {

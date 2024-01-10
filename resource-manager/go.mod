@@ -1,11 +1,11 @@
-module github.com/hashicorp/go-azure-sdk/resource-manager
+module github.com/tombuildsstuff/go-azure-sdk/resource-manager
 
 go 1.21
 
 require (
 	github.com/Azure/go-autorest/autorest v0.11.29
 	github.com/hashicorp/go-azure-helpers v0.65.0
-	github.com/hashicorp/go-azure-sdk/sdk v0.0.0-00010101000000-000000000000
+	github.com/tombuildsstuff/go-azure-sdk/sdk v0.0.0-00010101000000-000000000000
 )
 
 require (

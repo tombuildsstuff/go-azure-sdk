@@ -1,4 +1,4 @@
-# `github.com/hashicorp/go-azure-sdk/sdk`
+# `github.com/tombuildsstuff/go-azure-sdk/sdk`
 
 This SDK contains the base layer used by both the Microsoft Graph and Resource Manager SDKs.
 
