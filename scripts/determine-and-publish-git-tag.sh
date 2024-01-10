@@ -58,6 +58,9 @@ function updateSdkReferenceThenPublish {
   echo "Committing the changes.."
   git commit -m "$directory: updating to '$sdkTag' of 'github.com/tombuildsstuff/go-azure-sdk/sdk'"
 
+  echo "Pushing the changes.."
+  git push --tags
+
   cd "${DIR}"
 }
 
