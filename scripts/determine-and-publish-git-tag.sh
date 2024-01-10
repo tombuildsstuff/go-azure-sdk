@@ -2,8 +2,9 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
 
-
 set -e
+
+DIR="$(cd "$(dirname "$0")" && pwd)/.."
 
 function determineGitTag {
   # Whilst we could do something fancy here to determine the version, tbqh
@@ -33,10 +34,52 @@ function publish {
   git push --tags
 }
 
+function updateSdkReferenceThenPublish {
+  local directory=$1
+  local tag=$2
+
+  cd "${directory}"
+
+  echo "Checking out a working branch from 'sdk/$tag'.."
+  git checkout -b "$directory/$tag" "sdk/$tag"
+
+  echo "Updating the dependency on 'github.com/hashicorp/go-azure-sdk/sdk'.."
+  go get "github.com/hashicorp/go-azure-sdk/sdk@$sdkTag"
+
+  echo "Running 'go mod tidy'.."
+  go mod tidy
+
+  echo "Running 'go mod vendor'.."
+  go mod vendor
+
+  echo "Adding the updated go.mod/go.sum files.."
+  git add --all
+
+  echo "Committing the changes.."
+  git commit -m "$directory: updating to '$sdkTag' of 'github.com/hashicorp/go-azure-sdk/sdk'"
+
+  cd "${DIR}"
+}
+
 function main {
   local gitTag
   gitTag=$(determineGitTag)
-  publish "$gitTag"
+
+  echo "Configuring Git author information.."
+  #git config --global user.name "hc-github-team-tf-azure"
+  #git config --global user.email '<>'
+
+  echo "Tagging the 'sdk' module.."
+  local sdkTag="sdk/$gitTag"
+  publish "$sdkTag"
+
+  echo "Tagging the 'microsoft-graph' module.."
+  local resourceManagerTag="microsoft-graph/$gitTag"
+  updateSdkReferenceThenPublish "microsoft-graph" "$gitTag"
+
+  echo "Tagging the 'resource-manager' module.."
+  local resourceManagerTag="resource-manager/$gitTag"
+  updateSdkReferenceThenPublish "resource-manager" "$gitTag"
 }
 
 main
