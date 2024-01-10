@@ -2,8 +2,6 @@ module github.com/tombuildsstuff/go-azure-sdk/resource-manager
 
 go 1.21
 
-replace github.com/tombuildsstuff/go-azure-sdk/sdk => ../sdk
-
 require (
 	github.com/hashicorp/go-azure-helpers v0.65.0
 	github.com/tombuildsstuff/go-azure-sdk/sdk v0.20240110.1174848

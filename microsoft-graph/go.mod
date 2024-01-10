@@ -2,8 +2,6 @@ module github.com/tombuildsstuff/go-azure-sdk/microsoft-graph
 
 go 1.21.3
 
-replace github.com/tombuildsstuff/go-azure-sdk/sdk => ../sdk
-
 require github.com/tombuildsstuff/go-azure-sdk/sdk v0.20240110.1174848
 
 require (
