@@ -2,7 +2,7 @@ module github.com/tombuildsstuff/go-azure-sdk/microsoft-graph
 
 go 1.21.3
 
-require github.com/tombuildsstuff/go-azure-sdk/sdk v0.20240110.1174848
+require github.com/tombuildsstuff/go-azure-sdk/sdk v0.20240110.1175352
 
 require (
 	github.com/golang/protobuf v1.5.3 // indirect
