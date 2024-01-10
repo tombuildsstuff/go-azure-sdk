@@ -44,7 +44,7 @@ function updateSdkReferenceThenPublish {
   git checkout -b "$directory/$tag" "sdk/$tag"
 
   echo "Updating the dependency on 'github.com/tombuildsstuff/go-azure-sdk/sdk'.."
-  go get "github.com/tombuildsstuff/go-azure-sdk/sdk@$sdkTag"
+  go get "github.com/tombuildsstuff/go-azure-sdk/sdk@$tag"
 
   echo "Running 'go mod tidy'.."
   go mod tidy
